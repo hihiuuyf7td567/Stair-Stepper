@@ -1,0 +1,14 @@
+# stair_stepper requirements
+# The core module (geometry_utils.py + core.py) runs on pure Python 3.9+
+# with no mandatory dependencies.
+#
+# numpy is used internally for array helpers but is optional — you can
+# remove it if you only use Point3d.to_array() in your own code.
+numpy>=1.23
+
+# Optional: install rhino3dm if you want to feed real Rhino curve geometry
+# directly and export .3dm files.
+# rhino3dm>=8.0
+
+# Optional: install matplotlib for the built-in 2-D preview helper.
+# matplotlib>=3.7
